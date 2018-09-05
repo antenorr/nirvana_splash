@@ -1,0 +1,115 @@
+/* assets to use
+font-family: 'Open Sans', sans-serif;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Karla', sans-serif;
+*/
+
+body {
+  text-align: center;
+  color : #fefefe;
+  font-size: 16px;
+}
+
+.splash-back {
+  background-image: url(..//images/jakob-owens.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items : center;
+
+}
+
+h1  {
+  font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: 1.3rem;
+  font-size: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7rem;
+}
+
+
+.offer {
+  margin: 0 auto;
+  max-width: 880px;
+    
+}
+.smaller-offer {
+  max-width: 720px;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+ 
+}
+
+p {
+  font-size: 1.3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: block;
+  
+}
+
+a {
+  padding: .6rem .8rem;
+  margin: .5rem;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: .3rem;
+  color: #ffffff;
+  transition: all 1s;
+}
+
+a:hover {
+  background-color: #ef6a32;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.orange {
+ color: #ef6a32;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  
+  h1  {
+  font-size: 1.8rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
